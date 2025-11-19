@@ -98,9 +98,4 @@ A formal contribution guide will be added as the codebase stabilizes.
 
 ---
 
-## 9. Citation
-A recommended citation format will be provided following the release of a corresponding paper or preprint.
-
----
-
 For questions or additional information, please refer to the linked resources above or file an issue in this repository.
