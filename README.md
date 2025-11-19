@@ -7,9 +7,9 @@ The project is also the Regional (Asia) Winner at the Global Undergraduate Award
 ---
 
 ## **Credits:**
-Supervisor: Dr. Taegyun Kwon, Prof. Juhan Nam
-Author: Ng Zheng Xun
-Acknowledgements: Nanyang Technological University (NTU), C.N. Yang Scholars Programme (CNYSP) Office
+- Research Supervisors: Dr. Taegyun Kwon, Prof. Juhan Nam
+- Author: Ng Zheng Xun
+- Acknowledgements: Nanyang Technological University (NTU), C.N. Yang Scholars Programme (CNYSP) Office
 
 ---
 
@@ -17,7 +17,7 @@ Acknowledgements: Nanyang Technological University (NTU), C.N. Yang Scholars Pro
 
 ScoreTranscriber implements a **two-stage transformer-based Mixture-of-Experts (MoE)** architecture. The system first interprets the performance MIDI, estimating quantized rhythmic values, identifying potential performance errors, and predicting hand assignments (for piano). A second transformer then maps this structured intermediate representation into full **MusicXML**, producing a human-readable score.
 
-Demonstrations, audio samples, side-by-side score comparisons, and additional evaluation artifacts are available online.
+Demonstrations, audio samples, side-by-side score comparisons, and additional evaluation artifacts are available in the links below.
 
 ---
 
@@ -34,6 +34,8 @@ Demonstrations, audio samples, side-by-side score comparisons, and additional ev
 ## 3. System Architecture
 
 ScoreTranscriber uses a **two-transformer Mixture-of-Experts framework**:
+
+<img width="1280" height="442" alt="image" src="https://github.com/user-attachments/assets/38a0001a-2165-4ec9-b640-c5697ac14978" />
 
 ### 3.1 Performance Interpreter CRNN
 Based on "Performance MIDI-to-score conversion by neural beat tracking" by Liu et al. , 2022
@@ -91,20 +93,8 @@ Training data consists primarily of **Classical piano repertoire** (public-domai
 - Non-classical performance characteristics are not yet modeled
 
 ### 6.3 Repository Status
-This repository is **open-sourced but actively under development**.  
-Portions of the codebase remain experimental or unrefactored, and documentation is incomplete. Ongoing cleanup and reorganization are planned.
+This repository is **open-sourced**, with some refactoring to be done.  
+Portions of the codebase remain unrefactored, and documentation is incomplete. Ongoing cleanup and reorganization are planned.
 
----
-
-## 7. License
-*(To be added; pending project finalization.)*
-
----
-
-## 8. Contributing
-Contributions, feedback, and issue reports are welcome.  
-A formal contribution guide will be added as the codebase stabilizes.
-
----
 
 For questions or additional information, please refer to the linked resources above or file an issue in this repository.
