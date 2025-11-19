@@ -1,6 +1,15 @@
 # ScoreTranscriber: Performance-to-Score MusicXML Transcription
 
-**ScoreTranscriber** is a research prototype designed to convert **expressive performance MIDI** into **structured MusicXML notation**. The project addresses the challenge of inferring a clean symbolic score from human performances that contain expressive timing, dynamics, microtiming deviations, and occasional performance errors. This repository accompanies ongoing research and is currently in an early, experimental state.
+**ScoreTranscriber** is a research prototype designed to convert **expressive performance MIDI** into **structured MusicXML notation**. The project addresses the challenge of inferring a clean symbolic score from human performances that contain expressive timing, dynamics, microtiming deviations, and occasional performance errors. This repository is part of the project "ScoreTranscriber: Transformer-based Performance MIDI to Musical Score Conversion", conducted in KAIST's Music and Audio Computing Lab (MACLab). 
+
+The project is also the Regional (Asia) Winner at the Global Undergraduate Awards (GUA) 2024. 
+
+---
+
+## **Credits:**
+Supervisor: Dr. Taegyun Kwon, Prof. Juhan Nam
+Author: Ng Zheng Xun
+Acknowledgements: Nanyang Technological University (NTU), C.N. Yang Scholars Programme (CNYSP) Office
 
 ---
 
